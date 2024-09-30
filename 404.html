@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Error 404 :(</title>
-
-    <script>
-        window.onload = function () {
-            const destination = window.location.href;
-            if (!window.location.href.includes("zerglev.github.io/chatsky/master")) {
-                if (window.location.href.includes("zerglev.github.io/chatsky")) {
-                    const redirectLocation = window.location.href.replace(
-                        "zerglev.github.io/chatsky",
-                        "zerglev.github.io/chatsky/master"
-                    );
-                    document.getElementById("body").innerHTML = "Version not specified, choosing the latest version by default.<br/><br/>Redirecting to " + redirectLocation + " ...";
-                    window.location.href = redirectLocation;
-                }
+<script>
+    window.onload = function () {
+        const destination = window.location.href;
+        if (!window.location.href.includes("zerglev.github.io/chatsky/master")) {
+            if (window.location.href.includes("zerglev.github.io/chatsky")) {
+                const redirectLocation = window.location.href.replace(
+                    "zerglev.github.io/chatsky",
+                    "zerglev.github.io/chatsky/master"
+                );
+                document.getElementById("body").innerHTML = "Version not specified, choosing the latest version by default.<br/><br/>Redirecting to " + redirectLocation + " ...";
+                window.location.href = redirectLocation;
             }
         }
-    </script>
+    }
+</script>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src data:; connect-src &#39;self&#39;">
     <title>Page not found · GitHub Pages</title>
