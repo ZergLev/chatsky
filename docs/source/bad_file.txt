@@ -1,0 +1,1 @@
+Hello! This file should be removed if you see it and not added into the Sphinx Multiversion PR.
