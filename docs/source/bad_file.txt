@@ -1,1 +1,3 @@
 Hello! This file should be removed if you see it and not added into the Sphinx Multiversion PR.
+Building attempt 1: succeeded, but wrong output directory on gh-pages.
+Building attempt 2: ...
