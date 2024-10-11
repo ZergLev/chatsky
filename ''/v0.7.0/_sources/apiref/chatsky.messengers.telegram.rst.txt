@@ -1,0 +1,19 @@
+chatsky.messengers.telegram package
+===================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.messengers.telegram.abstract
+   chatsky.messengers.telegram.interface
+
+Module contents
+---------------
+
+.. automodule:: chatsky.messengers.telegram
+   :members:
+   :undoc-members:
+   :show-inheritance:

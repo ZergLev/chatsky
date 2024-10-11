@@ -1,0 +1,4 @@
+.. automodule:: chatsky.conditions.standard
+   :members:
+   :undoc-members:
+   :show-inheritance:

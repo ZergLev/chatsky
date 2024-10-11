@@ -1,0 +1,4 @@
+.. automodule:: chatsky.destinations.standard
+   :members:
+   :undoc-members:
+   :show-inheritance:

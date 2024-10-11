@@ -1,0 +1,19 @@
+chatsky.processing package
+==========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.processing.slots
+   chatsky.processing.standard
+
+Module contents
+---------------
+
+.. automodule:: chatsky.processing
+   :members:
+   :undoc-members:
+   :show-inheritance:

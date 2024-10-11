@@ -1,0 +1,34 @@
+chatsky.core package
+====================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.core.service
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.core.context
+   chatsky.core.message
+   chatsky.core.node_label
+   chatsky.core.pipeline
+   chatsky.core.script
+   chatsky.core.script_function
+   chatsky.core.script_parsing
+   chatsky.core.transition
+   chatsky.core.utils
+
+Module contents
+---------------
+
+.. automodule:: chatsky.core
+   :members:
+   :undoc-members:
+   :show-inheritance:

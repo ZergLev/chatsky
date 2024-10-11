@@ -1,0 +1,19 @@
+chatsky.messengers.common package
+=================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.messengers.common.interface
+   chatsky.messengers.common.types
+
+Module contents
+---------------
+
+.. automodule:: chatsky.messengers.common
+   :members:
+   :undoc-members:
+   :show-inheritance:

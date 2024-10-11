@@ -1,0 +1,4 @@
+.. automodule:: chatsky.slots.slots
+   :members:
+   :undoc-members:
+   :show-inheritance:

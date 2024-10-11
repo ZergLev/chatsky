@@ -1,0 +1,20 @@
+chatsky.utils.db\_benchmark package
+===================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.utils.db_benchmark.basic_config
+   chatsky.utils.db_benchmark.benchmark
+   chatsky.utils.db_benchmark.report
+
+Module contents
+---------------
+
+.. automodule:: chatsky.utils.db_benchmark
+   :members:
+   :undoc-members:
+   :show-inheritance:

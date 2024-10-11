@@ -1,0 +1,4 @@
+.. automodule:: chatsky.context_storages.redis
+   :members:
+   :undoc-members:
+   :show-inheritance:

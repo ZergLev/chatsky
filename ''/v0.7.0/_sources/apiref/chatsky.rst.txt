@@ -1,0 +1,27 @@
+chatsky package
+===============
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.conditions
+   chatsky.context_storages
+   chatsky.core
+   chatsky.destinations
+   chatsky.messengers
+   chatsky.processing
+   chatsky.responses
+   chatsky.slots
+   chatsky.stats
+   chatsky.utils
+
+Module contents
+---------------
+
+.. automodule:: chatsky
+   :members:
+   :undoc-members:
+   :show-inheritance:

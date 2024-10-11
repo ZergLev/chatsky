@@ -1,0 +1,21 @@
+chatsky.stats package
+=====================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.stats.cli
+   chatsky.stats.default_extractors
+   chatsky.stats.instrumentor
+   chatsky.stats.utils
+
+Module contents
+---------------
+
+.. automodule:: chatsky.stats
+   :members:
+   :undoc-members:
+   :show-inheritance:

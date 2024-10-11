@@ -1,0 +1,20 @@
+chatsky.utils.devel package
+===========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.utils.devel.async_helpers
+   chatsky.utils.devel.extra_field_helpers
+   chatsky.utils.devel.json_serialization
+
+Module contents
+---------------
+
+.. automodule:: chatsky.utils.devel
+   :members:
+   :undoc-members:
+   :show-inheritance:
