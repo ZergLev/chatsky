@@ -1,0 +1,4 @@
+.. automodule:: chatsky.core.node_label
+   :members:
+   :undoc-members:
+   :show-inheritance:

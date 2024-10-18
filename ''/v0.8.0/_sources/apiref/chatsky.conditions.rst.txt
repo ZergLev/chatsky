@@ -1,0 +1,20 @@
+chatsky.conditions package
+==========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.conditions.service
+   chatsky.conditions.slots
+   chatsky.conditions.standard
+
+Module contents
+---------------
+
+.. automodule:: chatsky.conditions
+   :members:
+   :undoc-members:
+   :show-inheritance:

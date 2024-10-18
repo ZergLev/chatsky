@@ -1,0 +1,4 @@
+.. automodule:: chatsky.core.service.service
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,4 @@
+.. automodule:: chatsky.messengers.telegram.interface
+   :members:
+   :undoc-members:
+   :show-inheritance:

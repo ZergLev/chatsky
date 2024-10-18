@@ -1,0 +1,4 @@
+.. automodule:: chatsky.stats.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:

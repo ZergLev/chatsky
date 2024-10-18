@@ -1,0 +1,1734 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index &#8212; chatsky 0.8.0 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery.css?v=61a4c737" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/katex-math.css?v=91adb8b6" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=b77b6cac" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=6a14807c"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/katex.min.js?v=be8ff15f"></script>
+    <script src="_static/auto-render.min.js?v=ad136472"></script>
+    <script src="_static/katex_autorenderer.js?v=bebc588a"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'genindex';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.14.4';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = './_static/switcher.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = '0.8.0';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner = true;
+        </script>
+    <link rel="index" title="Index" href="#" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">chatsky 0.8.0 documentation</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="get_started.html">
+                        Getting started
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="user_guides.html">
+                        User guides
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="tutorials.html">
+                        Tutorials
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="examples.html">
+                        Examples
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="reference.html">
+                        API reference
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="development.html">
+                        Development
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="community.html">
+                        Community
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="about_us.html">
+                        About us
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+        </div>
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+        </div>
+      
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-2"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-2"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-2"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-2">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://forum.deeppavlov.ai" title="DeepPavlov Forum" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="_static/images/logo-deeppavlov.svg" class="icon-link-image" alt="DeepPavlov Forum"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://t.me/DeepPavlovDreamDiscussions" title="Telegram" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-telegram fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Telegram</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/deeppavlov/chatsky" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+    </div>
+  
+    <div class="navbar-persistent--mobile">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+    </div>
+  
+
+  
+</div>
+
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="get_started.html">
+                        Getting started
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="user_guides.html">
+                        User guides
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="tutorials.html">
+                        Tutorials
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="examples.html">
+                        Examples
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="reference.html">
+                        API reference
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links-2">
+                    More
+                </button>
+                <ul id="pst-nav-more-links-2" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="development.html">
+                        Development
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="community.html">
+                        Community
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="about_us.html">
+                        About us
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-3"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-3"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-3"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-3">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://forum.deeppavlov.ai" title="DeepPavlov Forum" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="_static/images/logo-deeppavlov.svg" class="icon-link-image" alt="DeepPavlov Forum"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://t.me/DeepPavlovDreamDiscussions" title="Telegram" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-telegram fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Telegram</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/deeppavlov/chatsky" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article"></div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ <a href="#_"><strong>_</strong></a>
+ | <a href="#A"><strong>A</strong></a>
+ | <a href="#B"><strong>B</strong></a>
+ | <a href="#C"><strong>C</strong></a>
+ | <a href="#D"><strong>D</strong></a>
+ | <a href="#E"><strong>E</strong></a>
+ | <a href="#F"><strong>F</strong></a>
+ | <a href="#G"><strong>G</strong></a>
+ | <a href="#H"><strong>H</strong></a>
+ | <a href="#I"><strong>I</strong></a>
+ | <a href="#J"><strong>J</strong></a>
+ | <a href="#L"><strong>L</strong></a>
+ | <a href="#M"><strong>M</strong></a>
+ | <a href="#N"><strong>N</strong></a>
+ | <a href="#O"><strong>O</strong></a>
+ | <a href="#P"><strong>P</strong></a>
+ | <a href="#R"><strong>R</strong></a>
+ | <a href="#S"><strong>S</strong></a>
+ | <a href="#T"><strong>T</strong></a>
+ | <a href="#U"><strong>U</strong></a>
+ | <a href="#V"><strong>V</strong></a>
+ | <a href="#W"><strong>W</strong></a>
+ | <a href="#Y"><strong>Y</strong></a>
+ 
+</div>
+<h2 id="_">_</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.stats.instrumentor.html#chatsky.stats.instrumentor.OtelInstrumentor.__call__">__call__() (OtelInstrumentor method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.PasswordAction.__call__">(PasswordAction method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.messengers.telegram.abstract.html#chatsky.messengers.telegram.abstract._AbstractTelegramInterface">_AbstractTelegramInterface (class in chatsky.messengers.telegram.abstract)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.mongo.html#chatsky.context_storages.mongo.MongoContextStorage._adjust_key">_adjust_key() (MongoContextStorage static method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.SQLContextStorage._check_availability">_check_availability() (SQLContextStorage method)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.instrumentor.html#chatsky.stats.instrumentor.OtelInstrumentor._configure_providers">_configure_providers() (OtelInstrumentor method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.SQLContextStorage._create_self_table">_create_self_table() (SQLContextStorage method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.ydb.html#chatsky.context_storages.ydb._create_table">_create_table() (in module chatsky.context_storages.ydb)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.SQLContextStorage._get_update_stmt">_get_update_stmt() (SQLContextStorage method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.ydb.html#chatsky.context_storages.ydb._init_drive">_init_drive() (in module chatsky.context_storages.ydb)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.instrumentor.html#chatsky.stats.instrumentor.OtelInstrumentor._instrument">_instrument() (OtelInstrumentor method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.ydb.html#chatsky.context_storages.ydb._is_table_exists">_is_table_exists() (in module chatsky.context_storages.ydb)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization._JSON_EXTRA_FIELDS_KEYS">_JSON_EXTRA_FIELDS_KEYS (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.JSONContextStorage._load">_load() (JSONContextStorage method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.pickle.html#chatsky.context_storages.pickle.PickleContextStorage._load">(PickleContextStorage method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage._lock">_lock (DBContextStorage attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.telegram.abstract.html#chatsky.messengers.telegram.abstract._AbstractTelegramInterface._on_event">_on_event() (_AbstractTelegramInterface method)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.PollingMessengerInterface._on_exception">_on_exception() (PollingMessengerInterface method)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.PollingMessengerInterface._polling_loop">_polling_loop() (PollingMessengerInterface method)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.console.html#chatsky.messengers.console.CLIMessengerInterface._request">_request() (CLIMessengerInterface method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.PollingMessengerInterface._request">(PollingMessengerInterface method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.messengers.console.html#chatsky.messengers.console.CLIMessengerInterface._respond">_respond() (CLIMessengerInterface method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.PollingMessengerInterface._respond">(PollingMessengerInterface method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkCase._run">_run() (BenchmarkCase method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.JSONContextStorage._save">_save() (JSONContextStorage method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.pickle.html#chatsky.context_storages.pickle.PickleContextStorage._save">(PickleContextStorage method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.stats.instrumentor.html#chatsky.stats.instrumentor.OtelInstrumentor._uninstrument">_uninstrument() (OtelInstrumentor method)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization._WrapperModel">_WrapperModel (class in chatsky.utils.devel.json_serialization)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="A">A</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.all_slots_extracted">all_slots_extracted() (SlotManager method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="B">B</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.BaseSlot">BaseSlot (class in chatsky.slots.slots)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.basic_configurations">basic_configurations (in module chatsky.utils.db_benchmark.basic_config)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.BasicBenchmarkConfig">BasicBenchmarkConfig (class in chatsky.utils.db_benchmark.basic_config)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.benchmark_all">benchmark_all() (in module chatsky.utils.db_benchmark.benchmark)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkCase.benchmark_config">benchmark_config (BenchmarkCase attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkCase">BenchmarkCase (class in chatsky.utils.db_benchmark.benchmark)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkConfig">BenchmarkConfig (class in chatsky.utils.db_benchmark.benchmark)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="C">C</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.CallbackMessengerInterface">CallbackMessengerInterface (class in chatsky.messengers.common.interface)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.telegram.abstract.html#chatsky.messengers.telegram.abstract._AbstractTelegramInterface.cast_message_to_telegram_and_send">cast_message_to_telegram_and_send() (_AbstractTelegramInterface method)</a>
+</li>
+      <li>
+    chatsky
+
+      <ul>
+        <li><a href="apiref/chatsky.html#module-chatsky">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.context_storages
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.html#module-chatsky.context_storages">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.context_storages.database
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.database.html#module-chatsky.context_storages.database">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.context_storages.json
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.json.html#module-chatsky.context_storages.json">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.context_storages.mongo
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.mongo.html#module-chatsky.context_storages.mongo">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.context_storages.pickle
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.pickle.html#module-chatsky.context_storages.pickle">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.context_storages.protocol
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.protocol.html#module-chatsky.context_storages.protocol">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.context_storages.redis
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.redis.html#module-chatsky.context_storages.redis">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.context_storages.shelve
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.shelve.html#module-chatsky.context_storages.shelve">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.context_storages.sql
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.sql.html#module-chatsky.context_storages.sql">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.context_storages.ydb
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.ydb.html#module-chatsky.context_storages.ydb">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.messengers
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.html#module-chatsky.messengers">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.messengers.common
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.common.html#module-chatsky.messengers.common">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.messengers.common.interface
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.common.interface.html#module-chatsky.messengers.common.interface">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.messengers.common.types
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.common.types.html#module-chatsky.messengers.common.types">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.messengers.console
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.console.html#module-chatsky.messengers.console">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.messengers.telegram
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.telegram.html#module-chatsky.messengers.telegram">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.messengers.telegram.abstract
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.telegram.abstract.html#module-chatsky.messengers.telegram.abstract">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.messengers.telegram.interface
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.telegram.interface.html#module-chatsky.messengers.telegram.interface">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.slots
+
+      <ul>
+        <li><a href="apiref/chatsky.slots.html#module-chatsky.slots">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.slots.slots
+
+      <ul>
+        <li><a href="apiref/chatsky.slots.slots.html#module-chatsky.slots.slots">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.stats
+
+      <ul>
+        <li><a href="apiref/chatsky.stats.html#module-chatsky.stats">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.stats.cli
+
+      <ul>
+        <li><a href="apiref/chatsky.stats.cli.html#module-chatsky.stats.cli">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.stats.default_extractors
+
+      <ul>
+        <li><a href="apiref/chatsky.stats.default_extractors.html#module-chatsky.stats.default_extractors">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.stats.instrumentor
+
+      <ul>
+        <li><a href="apiref/chatsky.stats.instrumentor.html#module-chatsky.stats.instrumentor">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.stats.utils
+
+      <ul>
+        <li><a href="apiref/chatsky.stats.utils.html#module-chatsky.stats.utils">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.html#module-chatsky.utils">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    chatsky.utils.db_benchmark
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.db_benchmark.html#module-chatsky.utils.db_benchmark">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.db_benchmark.basic_config
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#module-chatsky.utils.db_benchmark.basic_config">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.db_benchmark.benchmark
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#module-chatsky.utils.db_benchmark.benchmark">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.db_benchmark.report
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.db_benchmark.report.html#module-chatsky.utils.db_benchmark.report">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.devel
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.devel.html#module-chatsky.utils.devel">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.devel.async_helpers
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.devel.async_helpers.html#module-chatsky.utils.devel.async_helpers">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.devel.extra_field_helpers
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.devel.extra_field_helpers.html#module-chatsky.utils.devel.extra_field_helpers">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.devel.json_serialization
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.devel.json_serialization.html#module-chatsky.utils.devel.json_serialization">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.testing
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.testing.html#module-chatsky.utils.testing">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.testing.cleanup_db
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.testing.cleanup_db.html#module-chatsky.utils.testing.cleanup_db">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.testing.common
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.testing.common.html#module-chatsky.utils.testing.common">module</a>
+</li>
+      </ul></li>
+      <li>
+    chatsky.utils.testing.toy_script
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.testing.toy_script.html#module-chatsky.utils.testing.toy_script">module</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.stats.cli.html#chatsky.stats.cli.CHATSKY_DIR">CHATSKY_DIR (in module chatsky.stats.cli)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.common.html#chatsky.utils.testing.common.check_happy_path">check_happy_path() (in module chatsky.utils.testing.common)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.clear">clear() (DBContextStorage method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.clear_async">clear_async() (DBContextStorage method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.JSONContextStorage.clear_async">(JSONContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.mongo.html#chatsky.context_storages.mongo.MongoContextStorage.clear_async">(MongoContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.pickle.html#chatsky.context_storages.pickle.PickleContextStorage.clear_async">(PickleContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.redis.html#chatsky.context_storages.redis.RedisContextStorage.clear_async">(RedisContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.shelve.html#chatsky.context_storages.shelve.ShelveContextStorage.clear_async">(ShelveContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.SQLContextStorage.clear_async">(SQLContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.ydb.html#chatsky.context_storages.ydb.YDBContextStorage.clear_async">(YDBContextStorage method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.messengers.console.html#chatsky.messengers.console.CLIMessengerInterface">CLIMessengerInterface (class in chatsky.messengers.console)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.telegram.abstract.html#chatsky.messengers.telegram.abstract._AbstractTelegramInterface.connect">connect() (_AbstractTelegramInterface method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.CallbackMessengerInterface.connect">(CallbackMessengerInterface method)</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.console.html#chatsky.messengers.console.CLIMessengerInterface.connect">(CLIMessengerInterface method)</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.telegram.interface.html#chatsky.messengers.telegram.interface.LongpollingInterface.connect">(LongpollingInterface method)</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.MessengerInterface.connect">(MessengerInterface method)</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.PollingMessengerInterface.connect">(PollingMessengerInterface method)</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.telegram.interface.html#chatsky.messengers.telegram.interface.WebhookInterface.connect">(WebhookInterface method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.contains_async">contains_async() (DBContextStorage method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.JSONContextStorage.contains_async">(JSONContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.mongo.html#chatsky.context_storages.mongo.MongoContextStorage.contains_async">(MongoContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.pickle.html#chatsky.context_storages.pickle.PickleContextStorage.contains_async">(PickleContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.redis.html#chatsky.context_storages.redis.RedisContextStorage.contains_async">(RedisContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.shelve.html#chatsky.context_storages.shelve.ShelveContextStorage.contains_async">(ShelveContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.SQLContextStorage.contains_async">(SQLContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.ydb.html#chatsky.context_storages.ydb.YDBContextStorage.contains_async">(YDBContextStorage method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.BasicBenchmarkConfig.context_num">context_num (BasicBenchmarkConfig attribute)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkConfig.context_num">(BenchmarkConfig attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.context_storage_factory">context_storage_factory() (in module chatsky.context_storages.database)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.BasicBenchmarkConfig.context_updater">context_updater() (BasicBenchmarkConfig method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkConfig.context_updater">(BenchmarkConfig method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="D">D</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.stats.cli.html#chatsky.stats.cli.DASHBOARD_DIR">DASHBOARD_DIR (in module chatsky.stats.cli)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.cli.html#chatsky.stats.cli.DASHBOARD_SLUG">DASHBOARD_SLUG (in module chatsky.stats.cli)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.DBFactory.db">db() (DBFactory method)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkCase.db_factory">db_factory (BenchmarkCase attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage">DBContextStorage (class in chatsky.context_storages.database)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.DBFactory">DBFactory (class in chatsky.utils.db_benchmark.benchmark)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.cli.html#chatsky.stats.cli.DEFAULT_SUPERSET_URL">DEFAULT_SUPERSET_URL (in module chatsky.stats.cli)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ExtractedValueSlot.default_value">default_value (ExtractedValueSlot attribute)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ValueSlot.default_value">(ValueSlot attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.del_item_async">del_item_async() (DBContextStorage method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.JSONContextStorage.del_item_async">(JSONContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.mongo.html#chatsky.context_storages.mongo.MongoContextStorage.del_item_async">(MongoContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.pickle.html#chatsky.context_storages.pickle.PickleContextStorage.del_item_async">(PickleContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.redis.html#chatsky.context_storages.redis.RedisContextStorage.del_item_async">(RedisContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.shelve.html#chatsky.context_storages.shelve.ShelveContextStorage.del_item_async">(ShelveContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.SQLContextStorage.del_item_async">(SQLContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.ydb.html#chatsky.context_storages.ydb.YDBContextStorage.del_item_async">(YDBContextStorage method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.testing.cleanup_db.html#chatsky.utils.testing.cleanup_db.delete_json">delete_json() (in module chatsky.utils.testing.cleanup_db)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.cleanup_db.html#chatsky.utils.testing.cleanup_db.delete_mongo">delete_mongo() (in module chatsky.utils.testing.cleanup_db)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.cleanup_db.html#chatsky.utils.testing.cleanup_db.delete_pickle">delete_pickle() (in module chatsky.utils.testing.cleanup_db)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.cleanup_db.html#chatsky.utils.testing.cleanup_db.delete_redis">delete_redis() (in module chatsky.utils.testing.cleanup_db)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.cleanup_db.html#chatsky.utils.testing.cleanup_db.delete_shelve">delete_shelve() (in module chatsky.utils.testing.cleanup_db)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.cleanup_db.html#chatsky.utils.testing.cleanup_db.delete_sql">delete_sql() (in module chatsky.utils.testing.cleanup_db)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.cleanup_db.html#chatsky.utils.testing.cleanup_db.delete_ydb">delete_ydb() (in module chatsky.utils.testing.cleanup_db)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkCase.description">description (BenchmarkCase attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.drop_superset_assets">drop_superset_assets() (in module chatsky.stats.utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="E">E</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.JSONSerializableExtras.extra_serializer">extra_serializer() (JSONSerializableExtras method)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.JSONSerializableExtras.extra_validator">extra_validator() (JSONSerializableExtras method)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.extract_all">extract_all() (SlotManager method)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.telegram.abstract.html#chatsky.messengers.telegram.abstract._AbstractTelegramInterface.extract_message_from_telegram">extract_message_from_telegram() (_AbstractTelegramInterface method)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.extract_slot">extract_slot() (SlotManager method)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.FunctionSlot.extract_value">extract_value() (FunctionSlot method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.RegexpSlot.extract_value">(RegexpSlot method)</a>
+</li>
+        <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ValueSlot.extract_value">(ValueSlot method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ExtractedValueSlot.extracted_value">extracted_value (ExtractedValueSlot attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ExtractedGroupSlot">ExtractedGroupSlot (class in chatsky.slots.slots)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ExtractedSlot">ExtractedSlot (class in chatsky.slots.slots)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ExtractedValueSlot">ExtractedValueSlot (class in chatsky.slots.slots)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="F">F</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.DBFactory.factory">factory (DBFactory attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.DBFactory.factory_module">factory_module (DBFactory attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.fill_template">fill_template() (SlotManager method)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.BasicBenchmarkConfig.from_dialog_len">from_dialog_len (BasicBenchmarkConfig attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.stats.instrumentor.html#chatsky.stats.instrumentor.OtelInstrumentor.from_url">from_url() (OtelInstrumentor class method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.full_path">full_path (DBContextStorage attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.FunctionSlot.func">func (FunctionSlot attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.FunctionSlot">FunctionSlot (class in chatsky.slots.slots)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="G">G</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.get">get() (DBContextStorage method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.get_async">get_async() (DBContextStorage method)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.telegram.abstract.html#chatsky.messengers.telegram.abstract._AbstractTelegramInterface.get_attachment_bytes">get_attachment_bytes() (_AbstractTelegramInterface method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.MessengerInterfaceWithAttachments.get_attachment_bytes">(MessengerInterfaceWithAttachments method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.BasicBenchmarkConfig.get_context">get_context() (BasicBenchmarkConfig method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkConfig.get_context">(BenchmarkConfig method)</a>
+</li>
+        <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.get_context">(in module chatsky.utils.db_benchmark.basic_config)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.stats.default_extractors.html#chatsky.stats.default_extractors.get_current_label">get_current_label() (in module chatsky.stats.default_extractors)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.get_dict">get_dict() (in module chatsky.utils.db_benchmark.basic_config)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.get_extra_handler_name">get_extra_handler_name() (in module chatsky.stats.utils)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.get_extracted_slot">get_extracted_slot() (SlotManager method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.get_item_async">get_item_async() (DBContextStorage method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.JSONContextStorage.get_item_async">(JSONContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.mongo.html#chatsky.context_storages.mongo.MongoContextStorage.get_item_async">(MongoContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.pickle.html#chatsky.context_storages.pickle.PickleContextStorage.get_item_async">(PickleContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.redis.html#chatsky.context_storages.redis.RedisContextStorage.get_item_async">(RedisContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.shelve.html#chatsky.context_storages.shelve.ShelveContextStorage.get_item_async">(ShelveContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.SQLContextStorage.get_item_async">(SQLContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.ydb.html#chatsky.context_storages.ydb.YDBContextStorage.get_item_async">(YDBContextStorage method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.stats.default_extractors.html#chatsky.stats.default_extractors.get_last_request">get_last_request() (in module chatsky.stats.default_extractors)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.default_extractors.html#chatsky.stats.default_extractors.get_last_response">get_last_response() (in module chatsky.stats.default_extractors)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.get_message">get_message() (in module chatsky.utils.db_benchmark.basic_config)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.protocol.html#chatsky.context_storages.protocol.get_protocol_install_suggestion">get_protocol_install_suggestion() (in module chatsky.context_storages.protocol)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.get_slot">get_slot() (SlotManager method)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.get_superset_session">get_superset_session() (in module chatsky.stats.utils)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.default_extractors.html#chatsky.stats.default_extractors.get_timing_after">get_timing_after() (in module chatsky.stats.default_extractors)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.default_extractors.html#chatsky.stats.default_extractors.get_timing_before">get_timing_before() (in module chatsky.stats.default_extractors)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.BaseSlot.get_value">get_value() (BaseSlot method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.GroupSlot.get_value">(GroupSlot method)</a>
+</li>
+        <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ValueSlot.get_value">(ValueSlot method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.utils.devel.extra_field_helpers.html#chatsky.utils.devel.extra_field_helpers.grab_extra_fields">grab_extra_fields() (in module chatsky.utils.devel.extra_field_helpers)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.GroupSlot">GroupSlot (class in chatsky.slots.slots)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="H">H</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.testing.toy_script.html#chatsky.utils.testing.toy_script.HAPPY_PATH">HAPPY_PATH (in module chatsky.utils.testing.toy_script)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="I">I</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.stats.cli.html#chatsky.stats.cli.import_dashboard">import_dashboard() (in module chatsky.stats.cli)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.import_insert_for_dialect">import_insert_for_dialect() (in module chatsky.context_storages.sql)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.BasicBenchmarkConfig.info">info() (BasicBenchmarkConfig method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkConfig.info">(BenchmarkConfig method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.BaseSlot.init_value">init_value() (BaseSlot method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.GroupSlot.init_value">(GroupSlot method)</a>
+</li>
+        <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ValueSlot.init_value">(ValueSlot method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.stats.instrumentor.html#chatsky.stats.instrumentor.OtelInstrumentor.instrumentation_dependencies">instrumentation_dependencies() (OtelInstrumentor method)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.common.html#chatsky.utils.testing.common.is_interactive_mode">is_interactive_mode() (in module chatsky.utils.testing.common)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ExtractedValueSlot.is_slot_extracted">is_slot_extracted (ExtractedValueSlot attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.is_slot_extracted">is_slot_extracted() (SlotManager method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="J">J</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.json_pickle_serializer">json_pickle_serializer() (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.json_pickle_validator">json_pickle_validator() (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.JSONContextStorage">JSONContextStorage (class in chatsky.context_storages.json)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.JSONPickleSerializer">JSONPickleSerializer (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.JSONPickleValidator">JSONPickleValidator (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.JSONSerializableDict">JSONSerializableDict (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.JSONSerializableExtras">JSONSerializableExtras (class in chatsky.utils.devel.json_serialization)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="L">L</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.len_async">len_async() (DBContextStorage method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.JSONContextStorage.len_async">(JSONContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.mongo.html#chatsky.context_storages.mongo.MongoContextStorage.len_async">(MongoContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.pickle.html#chatsky.context_storages.pickle.PickleContextStorage.len_async">(PickleContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.redis.html#chatsky.context_storages.redis.RedisContextStorage.len_async">(RedisContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.shelve.html#chatsky.context_storages.shelve.ShelveContextStorage.len_async">(ShelveContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.SQLContextStorage.len_async">(SQLContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.ydb.html#chatsky.context_storages.ydb.YDBContextStorage.len_async">(YDBContextStorage method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.logger_provider">logger_provider (in module chatsky.stats.utils)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.telegram.interface.html#chatsky.messengers.telegram.interface.LongpollingInterface">LongpollingInterface (class in chatsky.messengers.telegram.interface)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="M">M</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.stats.cli.html#chatsky.stats.cli.make_zip_config">make_zip_config() (in module chatsky.stats.cli)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.RegexpSlot.match_group_idx">match_group_idx (RegexpSlot attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.BasicBenchmarkConfig.message_dimensions">message_dimensions (BasicBenchmarkConfig attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.MessengerInterface">MessengerInterface (class in chatsky.messengers.common.interface)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.MessengerInterfaceWithAttachments">MessengerInterfaceWithAttachments (class in chatsky.messengers.common.interface)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.BasicBenchmarkConfig.misc_dimensions">misc_dimensions (BasicBenchmarkConfig attribute)</a>
+</li>
+      <li>
+    module
+
+      <ul>
+        <li><a href="apiref/chatsky.html#module-chatsky">chatsky</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.html#module-chatsky.context_storages">chatsky.context_storages</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.database.html#module-chatsky.context_storages.database">chatsky.context_storages.database</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.json.html#module-chatsky.context_storages.json">chatsky.context_storages.json</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.mongo.html#module-chatsky.context_storages.mongo">chatsky.context_storages.mongo</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.pickle.html#module-chatsky.context_storages.pickle">chatsky.context_storages.pickle</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.protocol.html#module-chatsky.context_storages.protocol">chatsky.context_storages.protocol</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.redis.html#module-chatsky.context_storages.redis">chatsky.context_storages.redis</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.shelve.html#module-chatsky.context_storages.shelve">chatsky.context_storages.shelve</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.sql.html#module-chatsky.context_storages.sql">chatsky.context_storages.sql</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.ydb.html#module-chatsky.context_storages.ydb">chatsky.context_storages.ydb</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.html#module-chatsky.messengers">chatsky.messengers</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.common.html#module-chatsky.messengers.common">chatsky.messengers.common</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.common.interface.html#module-chatsky.messengers.common.interface">chatsky.messengers.common.interface</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.common.types.html#module-chatsky.messengers.common.types">chatsky.messengers.common.types</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.console.html#module-chatsky.messengers.console">chatsky.messengers.console</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.telegram.html#module-chatsky.messengers.telegram">chatsky.messengers.telegram</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.telegram.abstract.html#module-chatsky.messengers.telegram.abstract">chatsky.messengers.telegram.abstract</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.telegram.interface.html#module-chatsky.messengers.telegram.interface">chatsky.messengers.telegram.interface</a>
+</li>
+        <li><a href="apiref/chatsky.slots.html#module-chatsky.slots">chatsky.slots</a>
+</li>
+        <li><a href="apiref/chatsky.slots.slots.html#module-chatsky.slots.slots">chatsky.slots.slots</a>
+</li>
+        <li><a href="apiref/chatsky.stats.html#module-chatsky.stats">chatsky.stats</a>
+</li>
+        <li><a href="apiref/chatsky.stats.cli.html#module-chatsky.stats.cli">chatsky.stats.cli</a>
+</li>
+        <li><a href="apiref/chatsky.stats.default_extractors.html#module-chatsky.stats.default_extractors">chatsky.stats.default_extractors</a>
+</li>
+        <li><a href="apiref/chatsky.stats.instrumentor.html#module-chatsky.stats.instrumentor">chatsky.stats.instrumentor</a>
+</li>
+        <li><a href="apiref/chatsky.stats.utils.html#module-chatsky.stats.utils">chatsky.stats.utils</a>
+</li>
+        <li><a href="apiref/chatsky.utils.html#module-chatsky.utils">chatsky.utils</a>
+</li>
+        <li><a href="apiref/chatsky.utils.db_benchmark.html#module-chatsky.utils.db_benchmark">chatsky.utils.db_benchmark</a>
+</li>
+        <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#module-chatsky.utils.db_benchmark.basic_config">chatsky.utils.db_benchmark.basic_config</a>
+</li>
+        <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#module-chatsky.utils.db_benchmark.benchmark">chatsky.utils.db_benchmark.benchmark</a>
+</li>
+        <li><a href="apiref/chatsky.utils.db_benchmark.report.html#module-chatsky.utils.db_benchmark.report">chatsky.utils.db_benchmark.report</a>
+</li>
+        <li><a href="apiref/chatsky.utils.devel.html#module-chatsky.utils.devel">chatsky.utils.devel</a>
+</li>
+        <li><a href="apiref/chatsky.utils.devel.async_helpers.html#module-chatsky.utils.devel.async_helpers">chatsky.utils.devel.async_helpers</a>
+</li>
+        <li><a href="apiref/chatsky.utils.devel.extra_field_helpers.html#module-chatsky.utils.devel.extra_field_helpers">chatsky.utils.devel.extra_field_helpers</a>
+</li>
+        <li><a href="apiref/chatsky.utils.devel.json_serialization.html#module-chatsky.utils.devel.json_serialization">chatsky.utils.devel.json_serialization</a>
+</li>
+        <li><a href="apiref/chatsky.utils.testing.html#module-chatsky.utils.testing">chatsky.utils.testing</a>
+</li>
+        <li><a href="apiref/chatsky.utils.testing.cleanup_db.html#module-chatsky.utils.testing.cleanup_db">chatsky.utils.testing.cleanup_db</a>
+</li>
+        <li><a href="apiref/chatsky.utils.testing.common.html#module-chatsky.utils.testing.common">chatsky.utils.testing.common</a>
+</li>
+        <li><a href="apiref/chatsky.utils.testing.toy_script.html#module-chatsky.utils.testing.toy_script">chatsky.utils.testing.toy_script</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.context_storages.mongo.html#chatsky.context_storages.mongo.MongoContextStorage">MongoContextStorage (class in chatsky.context_storages.mongo)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.toy_script.html#chatsky.utils.testing.toy_script.MULTIFLOW_REQUEST_OPTIONS">MULTIFLOW_REQUEST_OPTIONS (in module chatsky.utils.testing.toy_script)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.toy_script.html#chatsky.utils.testing.toy_script.MULTIFLOW_SCRIPT">MULTIFLOW_SCRIPT (in module chatsky.utils.testing.toy_script)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="N">N</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkCase.name">name (BenchmarkCase attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="O">O</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.messengers.telegram.abstract.html#chatsky.messengers.telegram.abstract._AbstractTelegramInterface.on_callback">on_callback() (_AbstractTelegramInterface method)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.telegram.abstract.html#chatsky.messengers.telegram.abstract._AbstractTelegramInterface.on_message">on_message() (_AbstractTelegramInterface method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.CallbackMessengerInterface.on_request">on_request() (CallbackMessengerInterface method)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.CallbackMessengerInterface.on_request_async">on_request_async() (CallbackMessengerInterface method)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.instrumentor.html#chatsky.stats.instrumentor.OtelInstrumentor">OtelInstrumentor (class in chatsky.stats.instrumentor)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="P">P</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.PasswordAction">PasswordAction (class in chatsky.stats.utils)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.path">path (DBContextStorage attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.pickle_serializer">pickle_serializer() (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.pickle_validator">pickle_validator() (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.pickle.html#chatsky.context_storages.pickle.PickleContextStorage">PickleContextStorage (class in chatsky.context_storages.pickle)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.PickleEncodedValue">PickleEncodedValue (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.PickleSerializer">PickleSerializer (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.PickleValidator">PickleValidator (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.common.types.html#chatsky.messengers.common.types.PollingInterfaceLoopFunction">PollingInterfaceLoopFunction (in module chatsky.messengers.common.types)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.PollingMessengerInterface">PollingMessengerInterface (class in chatsky.messengers.common.interface)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="R">R</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.recursive_getattr">recursive_getattr() (in module chatsky.slots.slots)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.recursive_setattr">recursive_setattr() (in module chatsky.slots.slots)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.redis.html#chatsky.context_storages.redis.RedisContextStorage">RedisContextStorage (class in chatsky.context_storages.redis)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.RegexpSlot.regexp">regexp (RegexpSlot attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.RegexpSlot">RegexpSlot (class in chatsky.slots.slots)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.db_benchmark.report.html#chatsky.utils.db_benchmark.report.report">report() (in module chatsky.utils.db_benchmark.report)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.resource">resource (in module chatsky.stats.utils)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization._WrapperModel.root">root (_WrapperModel attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.root_slot">root_slot (SlotManager attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkCase.run">run() (BenchmarkCase method)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.common.html#chatsky.utils.testing.common.run_interactive_mode">run_interactive_mode() (in module chatsky.utils.testing.common)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.save_results_to_file">save_results_to_file() (in module chatsky.utils.db_benchmark.benchmark)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.devel.json_serialization.html#chatsky.utils.devel.json_serialization.Serializable">Serializable (in module chatsky.utils.devel.json_serialization)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.SerializableStorage">SerializableStorage (class in chatsky.context_storages.json)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkCase.set_average_results">set_average_results() (BenchmarkCase static method)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.DBContextStorage.set_item_async">set_item_async() (DBContextStorage method)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.JSONContextStorage.set_item_async">(JSONContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.mongo.html#chatsky.context_storages.mongo.MongoContextStorage.set_item_async">(MongoContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.pickle.html#chatsky.context_storages.pickle.PickleContextStorage.set_item_async">(PickleContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.redis.html#chatsky.context_storages.redis.RedisContextStorage.set_item_async">(RedisContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.shelve.html#chatsky.context_storages.shelve.ShelveContextStorage.set_item_async">(ShelveContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.SQLContextStorage.set_item_async">(SQLContextStorage method)</a>
+</li>
+        <li><a href="apiref/chatsky.context_storages.ydb.html#chatsky.context_storages.ydb.YDBContextStorage.set_item_async">(YDBContextStorage method)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.set_logger_destination">set_logger_destination() (in module chatsky.stats.utils)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.set_meter_destination">set_meter_destination() (in module chatsky.stats.utils)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.set_root_slot">set_root_slot() (SlotManager method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.set_tracer_destination">set_tracer_destination() (in module chatsky.stats.utils)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.shelve.html#chatsky.context_storages.shelve.ShelveContextStorage">ShelveContextStorage (class in chatsky.context_storages.shelve)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.slot_storage">slot_storage (SlotManager attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager">SlotManager (class in chatsky.slots.slots)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotName">SlotName (in module chatsky.slots.slots)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotNotExtracted">SlotNotExtracted</a>
+</li>
+      <li><a href="apiref/chatsky.stats.cli.html#chatsky.stats.cli.SQL_STATEMENT_MAPPING">SQL_STATEMENT_MAPPING (in module chatsky.stats.cli)</a>
+</li>
+      <li><a href="apiref/chatsky.context_storages.sql.html#chatsky.context_storages.sql.SQLContextStorage">SQLContextStorage (class in chatsky.context_storages.sql)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.BasicBenchmarkConfig.step_dialog_len">step_dialog_len (BasicBenchmarkConfig attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.messengers.telegram.abstract.html#chatsky.messengers.telegram.abstract._AbstractTelegramInterface.supported_request_attachment_types">supported_request_attachment_types (_AbstractTelegramInterface attribute)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.console.html#chatsky.messengers.console.CLIMessengerInterface.supported_request_attachment_types">(CLIMessengerInterface attribute)</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.MessengerInterfaceWithAttachments.supported_request_attachment_types">(MessengerInterfaceWithAttachments attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="apiref/chatsky.messengers.telegram.abstract.html#chatsky.messengers.telegram.abstract._AbstractTelegramInterface.supported_response_attachment_types">supported_response_attachment_types (_AbstractTelegramInterface attribute)</a>
+
+      <ul>
+        <li><a href="apiref/chatsky.messengers.console.html#chatsky.messengers.console.CLIMessengerInterface.supported_response_attachment_types">(CLIMessengerInterface attribute)</a>
+</li>
+        <li><a href="apiref/chatsky.messengers.common.interface.html#chatsky.messengers.common.interface.MessengerInterfaceWithAttachments.supported_response_attachment_types">(MessengerInterfaceWithAttachments attribute)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="T">T</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.context_storages.database.html#chatsky.context_storages.database.threadsafe_method">threadsafe_method() (in module chatsky.context_storages.database)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.time_context_read_write">time_context_read_write() (in module chatsky.utils.db_benchmark.benchmark)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.basic_config.html#chatsky.utils.db_benchmark.basic_config.BasicBenchmarkConfig.to_dialog_len">to_dialog_len (BasicBenchmarkConfig attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.testing.toy_script.html#chatsky.utils.testing.toy_script.TOY_SCRIPT">TOY_SCRIPT (in module chatsky.utils.testing.toy_script)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.testing.toy_script.html#chatsky.utils.testing.toy_script.TOY_SCRIPT_ARGS">TOY_SCRIPT_ARGS (in module chatsky.utils.testing.toy_script)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.utils.html#chatsky.stats.utils.tracer_provider">tracer_provider (in module chatsky.stats.utils)</a>
+</li>
+      <li><a href="apiref/chatsky.stats.cli.html#chatsky.stats.cli.TYPE_MAPPING_CH">TYPE_MAPPING_CH (in module chatsky.stats.cli)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="U">U</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.unset_all_slots">unset_all_slots() (SlotManager method)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.SlotManager.unset_slot">unset_slot() (SlotManager method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ExtractedGroupSlot.update">update() (ExtractedGroupSlot method)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.DBFactory.uri">uri (DBFactory attribute)</a>
+</li>
+      <li><a href="apiref/chatsky.utils.db_benchmark.benchmark.html#chatsky.utils.db_benchmark.benchmark.BenchmarkCase.uuid">uuid (BenchmarkCase attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="V">V</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.context_storages.json.html#chatsky.context_storages.json.SerializableStorage.validate_any">validate_any() (SerializableStorage class method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ExtractedValueSlot.value">value (ExtractedValueSlot property)</a>
+</li>
+      <li><a href="apiref/chatsky.slots.slots.html#chatsky.slots.slots.ValueSlot">ValueSlot (class in chatsky.slots.slots)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="W">W</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.messengers.telegram.interface.html#chatsky.messengers.telegram.interface.WebhookInterface">WebhookInterface (class in chatsky.messengers.telegram.interface)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.utils.devel.async_helpers.html#chatsky.utils.devel.async_helpers.wrap_sync_function_in_async">wrap_sync_function_in_async() (in module chatsky.utils.devel.async_helpers)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="Y">Y</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="apiref/chatsky.context_storages.ydb.html#chatsky.context_storages.ydb.YDBContextStorage">YDBContextStorage (class in chatsky.context_storages.ydb)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2022 - 2024, DeepPavlov.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.1.2.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.14.4.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

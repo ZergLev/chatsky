@@ -1,0 +1,18 @@
+chatsky.destinations package
+============================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.destinations.standard
+
+Module contents
+---------------
+
+.. automodule:: chatsky.destinations
+   :members:
+   :undoc-members:
+   :show-inheritance:

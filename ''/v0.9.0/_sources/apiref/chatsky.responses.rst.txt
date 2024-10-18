@@ -1,0 +1,19 @@
+chatsky.responses package
+=========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.responses.slots
+   chatsky.responses.standard
+
+Module contents
+---------------
+
+.. automodule:: chatsky.responses
+   :members:
+   :undoc-members:
+   :show-inheritance:

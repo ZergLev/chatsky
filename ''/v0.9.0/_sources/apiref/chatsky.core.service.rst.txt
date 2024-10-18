@@ -1,0 +1,23 @@
+chatsky.core.service package
+============================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.core.service.actor
+   chatsky.core.service.component
+   chatsky.core.service.extra
+   chatsky.core.service.group
+   chatsky.core.service.service
+   chatsky.core.service.types
+
+Module contents
+---------------
+
+.. automodule:: chatsky.core.service
+   :members:
+   :undoc-members:
+   :show-inheritance:

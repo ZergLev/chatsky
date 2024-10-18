@@ -1,0 +1,26 @@
+chatsky.context\_storages package
+=================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.context_storages.database
+   chatsky.context_storages.json
+   chatsky.context_storages.mongo
+   chatsky.context_storages.pickle
+   chatsky.context_storages.protocol
+   chatsky.context_storages.redis
+   chatsky.context_storages.shelve
+   chatsky.context_storages.sql
+   chatsky.context_storages.ydb
+
+Module contents
+---------------
+
+.. automodule:: chatsky.context_storages
+   :members:
+   :undoc-members:
+   :show-inheritance:

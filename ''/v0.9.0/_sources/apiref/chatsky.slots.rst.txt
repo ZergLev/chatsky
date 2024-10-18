@@ -1,0 +1,18 @@
+chatsky.slots package
+=====================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chatsky.slots.slots
+
+Module contents
+---------------
+
+.. automodule:: chatsky.slots
+   :members:
+   :undoc-members:
+   :show-inheritance:
