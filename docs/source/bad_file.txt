@@ -3,3 +3,4 @@ Building attempt 1: succeeded, but wrong output directory on gh-pages.
 Building attempt 2: Failed to declare recurive directory creation, also found python script mistake, fixed both.
 Building attempt 3: Bash didn't recognize the "(" symbol. Oh well, guess I'll do two different deploys. It's the same in terms of space.
 Building attempt 18.10.2024: A long time has passed, I just want to know if this will build at all from PR.
+Building attempt 5: It didn't build due to a mistake in drawio builds for PRs, fixed. Building again...
