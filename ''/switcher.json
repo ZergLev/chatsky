@@ -10,6 +10,11 @@
         "preferred": "true"
     },
     {
+        "name": "v0.8.0",
+        "version": "v0.8.0",
+        "url": "https://deepavlov.github.io/chatsky/v0.8.0/index.html"
+    },
+    {
         "name": "v0.7.2",
         "version": "v0.7.2",
         "url": "https://deepavlov.github.io/chatsky/v0.7.2/index.html"
@@ -23,11 +28,6 @@
         "name": "v1.0.0rc1",
         "version": "v1.0.0rc1",
         "url": "https://deepavlov.github.io/chatsky/v1.0.0rc1/index.html"
-    },
-    {
-        "name": "v0.8.0",
-        "version": "v0.8.0",
-        "url": "https://deepavlov.github.io/chatsky/v0.8.0/index.html"
     },
     {
         "name": "v0.6.4.dev0",
