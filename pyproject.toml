@@ -158,6 +158,7 @@ pydata-sphinx-theme = "*"
 sphinxcontrib-apidoc = "*"
 sphinxcontrib-httpdomain = "*"
 sphinx-autodoc-typehints = "*"
+sphinx-polyversion = "*"
 jupytext = "*"
 jupyter = "*"
 
