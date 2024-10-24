@@ -1,12 +1,62 @@
 [
     {
         "version": "dev",
-        "url": "https://zerglev.github.io/dialog_flow_framework/dev/index.html"
+        "url": "https://deeppavlov.github.io/chatsky/dev/index.html"
     },
     {
-        "name": "master",
-        "version": "v0.7.0",
-        "url": "https://zerglev.github.io/dialog_flow_framework/master/index.html",
+        "name": "v0.9.0",
+        "version": "v0.9.0",
+        "url": "https://deepavlov.github.io/chatsky/v0.9.0/index.html",
         "preferred": "true"
+    },
+    {
+        "name": "v0.8.0",
+        "version": "v0.8.0",
+        "url": "https://deepavlov.github.io/chatsky/v0.8.0/index.html"
+    },
+    {
+        "name": "v0.7.2",
+        "version": "v0.7.2",
+        "url": "https://deepavlov.github.io/chatsky/v0.7.2/index.html"
+    },
+    {
+        "name": "v0.6.5",
+        "version": "v0.6.5",
+        "url": "https://deepavlov.github.io/chatsky/v0.6.5/index.html"
+    },
+    {
+        "name": "v1.0.0rc1",
+        "version": "v1.0.0rc1",
+        "url": "https://deepavlov.github.io/chatsky/v1.0.0rc1/index.html"
+    },
+    {
+        "name": "v0.6.4.dev0",
+        "version": "v0.6.4.dev0",
+        "url": "https://deepavlov.github.io/chatsky/v0.6.4.dev0/index.html"
+    },
+    {
+        "name": "v0.7.0",
+        "version": "v0.7.0",
+        "url": "https://deepavlov.github.io/chatsky/v0.7.0/index.html"
+    },
+    {
+        "name": "v0.6.4",
+        "version": "v0.6.4",
+        "url": "https://deepavlov.github.io/chatsky/v0.6.4/index.html"
+    },
+    {
+        "name": "v0.6.3",
+        "version": "v0.6.3",
+        "url": "https://deepavlov.github.io/chatsky/v0.6.3/index.html"
+    },
+    {
+        "name": "v0.6.2",
+        "version": "v0.6.2",
+        "url": "https://deepavlov.github.io/chatsky/v0.6.2/index.html"
+    },
+    {
+        "name": "v0.6.1",
+        "version": "v0.6.1",
+        "url": "https://deepavlov.github.io/chatsky/v0.6.1/index.html"
     }
 ]

@@ -1,0 +1,7 @@
+:source_name: chatsky/script/responses/std_responses
+:doc_version: v0.8.0/
+
+.. automodule:: chatsky.script.responses.std_responses
+   :members:
+   :undoc-members:
+   :show-inheritance:

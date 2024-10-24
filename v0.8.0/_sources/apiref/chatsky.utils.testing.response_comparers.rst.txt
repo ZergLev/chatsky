@@ -1,0 +1,7 @@
+:source_name: chatsky/utils/testing/response_comparers
+:doc_version: v0.8.0/
+
+.. automodule:: chatsky.utils.testing.response_comparers
+   :members:
+   :undoc-members:
+   :show-inheritance:

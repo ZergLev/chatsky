@@ -1,0 +1,13 @@
+:source_name: chatsky/script/extras/conditions
+:doc_version: v0.8.0/
+
+chatsky.script.extras.conditions package
+========================================
+
+Module contents
+---------------
+
+.. automodule:: chatsky.script.extras.conditions
+   :members:
+   :undoc-members:
+   :show-inheritance:

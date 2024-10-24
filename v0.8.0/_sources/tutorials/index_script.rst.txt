@@ -1,0 +1,28 @@
+:orphan:
+
+.. This is an auto-generated RST index file representing tutorials directory structure
+
+Script
+======
+
+Core
+----
+
+.. nbgallery::
+   tutorials.script.core.1_basics.py
+   tutorials.script.core.2_conditions.py
+   tutorials.script.core.3_responses.py
+   tutorials.script.core.4_transitions.py
+   tutorials.script.core.5_global_transitions.py
+   tutorials.script.core.6_context_serialization.py
+   tutorials.script.core.7_pre_response_processing.py
+   tutorials.script.core.8_misc.py
+   tutorials.script.core.9_pre_transitions_processing.py
+
+Responses
+---------
+
+.. nbgallery::
+   tutorials.script.responses.1_basics.py
+   tutorials.script.responses.2_media.py
+   tutorials.script.responses.3_multi_message.py

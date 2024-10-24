@@ -1,0 +1,7 @@
+:source_name: chatsky/pipeline/pipeline/actor
+:doc_version: v0.8.0/
+
+.. automodule:: chatsky.pipeline.pipeline.actor
+   :members:
+   :undoc-members:
+   :show-inheritance:

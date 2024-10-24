@@ -1,0 +1,7 @@
+:source_name: chatsky/slots/conditions
+:doc_version: v0.8.0/
+
+.. automodule:: chatsky.slots.conditions
+   :members:
+   :undoc-members:
+   :show-inheritance:

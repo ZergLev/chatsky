@@ -1,0 +1,7 @@
+:source_name: chatsky/pipeline/types
+:doc_version: v0.8.0/
+
+.. automodule:: chatsky.pipeline.types
+   :members:
+   :undoc-members:
+   :show-inheritance:

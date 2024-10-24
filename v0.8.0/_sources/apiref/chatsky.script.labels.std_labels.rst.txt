@@ -1,0 +1,7 @@
+:source_name: chatsky/script/labels/std_labels
+:doc_version: v0.8.0/
+
+.. automodule:: chatsky.script.labels.std_labels
+   :members:
+   :undoc-members:
+   :show-inheritance:

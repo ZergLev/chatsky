@@ -1,0 +1,7 @@
+:source_name: chatsky/script/core/context
+:doc_version: v0.8.0/
+
+.. automodule:: chatsky.script.core.context
+   :members:
+   :undoc-members:
+   :show-inheritance:

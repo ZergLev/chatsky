@@ -1,0 +1,7 @@
+:source_name: chatsky/script/conditions/std_conditions
+:doc_version: v0.8.0/
+
+.. automodule:: chatsky.script.conditions.std_conditions
+   :members:
+   :undoc-members:
+   :show-inheritance:
