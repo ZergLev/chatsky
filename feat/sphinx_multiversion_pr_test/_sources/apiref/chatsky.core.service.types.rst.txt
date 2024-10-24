@@ -1,0 +1,7 @@
+:source_name: chatsky/core/service/types
+:doc_version: feat/sphinx_multiversion_pr_test/
+
+.. automodule:: chatsky.core.service.types
+   :members:
+   :undoc-members:
+   :show-inheritance:

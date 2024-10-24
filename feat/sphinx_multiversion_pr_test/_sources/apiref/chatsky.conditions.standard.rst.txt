@@ -1,0 +1,7 @@
+:source_name: chatsky/conditions/standard
+:doc_version: feat/sphinx_multiversion_pr_test/
+
+.. automodule:: chatsky.conditions.standard
+   :members:
+   :undoc-members:
+   :show-inheritance:
