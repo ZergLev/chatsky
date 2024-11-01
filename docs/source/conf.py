@@ -181,6 +181,7 @@ autodoc_default_options = {
 def setup(_):
     # Generate version switcher file (switcher.json)
     generate_switcher()
+    print("qwerty")
 
     link_misc_files(
         [
