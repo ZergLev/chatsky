@@ -1,6 +1,7 @@
 import os
 import sys
 import re
+import git
 import importlib.metadata
 
 # -- Path setup --------------------------------------------------------------
