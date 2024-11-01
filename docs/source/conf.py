@@ -11,6 +11,8 @@ from utils.generate_tutorials import generate_tutorial_links_for_notebook_creati
 from utils.link_misc_files import link_misc_files  # noqa: E402
 from utils.regenerate_apiref import regenerate_apiref  # noqa: E402
 
+from docs.source.switcher_gen import generate_switcher
+
 # -- Project information -----------------------------------------------------
 
 _distribution_metadata = importlib.metadata.metadata('chatsky')
@@ -20,6 +22,9 @@ copyright = "2023, DeepPavlov"
 author = "DeepPavlov"
 release = _distribution_metadata["Version"]
 
+current_commit = git.Repo('../../').head.commit
+today = current_commit.committed_datetime
+today = today.strftime("%b %d, %Y")
 
 # -- General configuration ---------------------------------------------------
 
@@ -88,10 +93,14 @@ html_show_sourcelink = False
 
 autosummary_generate_overwrite = False
 
+doc_version_path = os.getenv("DOC_VERSION", default="")
+if doc_version_path != "":
+    doc_version_path = doc_version_path + '/'
 # Finding tutorials directories
 nbsphinx_custom_formats = {".py": py_percent_to_notebook}
-nbsphinx_prolog = """
-:tutorial_name: {{ env.docname }}
+nbsphinx_prolog = f"""
+:tutorial_name: {{{{ env.docname }}}}
+:doc_version_path: {doc_version_path}
 """
 
 html_logo = "_static/images/logo-simple.svg"
@@ -110,6 +119,12 @@ html_context = {
 html_css_files = [
     "css/custom.css",
 ]
+
+# Possible to-do: show the warning banner for latest(unstable) version.
+# Version switcher data (change zerglev into deeppavlov)
+version_data = os.getenv("DOC_VERSION", default="latest")
+switcher_url = "https://zerglev.github.io/chatsky/switcher.json"
+
 
 # Theme options
 html_theme_options = {
@@ -139,6 +154,13 @@ html_theme_options = {
         },
     ],
     "secondary_sidebar_items": ["page-toc", "source-links", "example-links"],
+    "switcher": {
+        "json_url": switcher_url,
+        "version_match": version_data,
+    },
+    "navbar_persistent": ["search-button.html", "theme-switcher.html"],
+    "navbar_end": ["version-switcher.html", "navbar-icon-links.html"],
+    "show_version_warning_banner": True,
 }
 
 
@@ -157,6 +179,9 @@ autodoc_default_options = {
 
 
 def setup(_):
+    # Generate version switcher file (switcher.json)
+    generate_switcher()
+
     link_misc_files(
         [
             "utils/db_benchmark/benchmark_schema.json",
