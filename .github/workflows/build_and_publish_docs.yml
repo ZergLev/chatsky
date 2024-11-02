@@ -11,6 +11,8 @@ on:
   pull_request:
     branches:
     - dev
+    # TODO: Need to remove the branch below, it's just for testing.
+    - feat/sphinx_multiversion
   workflow_dispatch:
 
 concurrency:
@@ -23,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: set up python 3.9
         uses: actions/setup-python@v5
@@ -38,37 +42,70 @@ jobs:
           python -m pip install --upgrade pip poetry
           python -m poetry install --with tutorials,docs --all-extras --no-ansi --no-interaction
 
+      - name: test actions/checkout_v4 (remove this before merging PR)
+        run: |
+          git branch
+          git status
+          echo "${{ github.head_ref || github.ref_name }}"
+
+      - name: save docs version into a variable
+        run: |
+          echo "DOC_VERSION=${{ github.head_ref || github.ref_name }}" >> $GITHUB_ENV
+
       - name: build documentation
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_BOT_USERNAME: ${{ secrets.TG_BOT_USERNAME }}
+          DOC_VERSION: ${{ env.DOC_VERSION }}
+          # VERSION_SWITCHER_TAG_BLACKLIST: []
+          # VERSION_SWITCHER_TAG_WHITELIST: []
         run: |
           python -m poetry run poe docs
 
       - name: remove jekyll theming
         run: touch docs/build/.nojekyll
 
-      - name: save branch name without slashes
-        if: ${{ github.ref != 'refs/heads/master' }}
-        env:
-          BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+      - name: save changes and checkout to gh-pages
+        # Maybe these three steps could be merged into one?
+        # It would look a bit boilerplate, but maybe it'll be easier to understand the logic.
         run: |
-          BRANCH_NAME=${{ env.BRANCH_NAME }}
-          BRANCH_NAME=${BRANCH_NAME////_}
-          echo BRANCH_NAME=${BRANCH_NAME} >> $GITHUB_ENV
+          git add -f .
+          git stash
+          git checkout gh-pages
 
-      - name: save artifact
-        if: ${{ github.ref != 'refs/heads/master' }}
-        uses: actions/upload-artifact@v4
+      - name: clean outdated documentation
+        uses: EndBug/add-and-commit@v9.1.4
         with:
-          name: ${{ format('github-pages-for-branch-{0}', env.BRANCH_NAME) }}
-          path: docs/build/
-          retention-days: 3
+          remove: '-r --ignore-unmatch ${{ env.DOC_VERSION }}'
+
+      - name: checkout to original branch and reapply changes
+        run: |
+          git checkout -
+          git stash pop
 
       - name: deploy website
-        if: ${{ github.ref == 'refs/heads/master' }}
+        # TODO: Make a better True-False flag for deploying for Pull Requests. If at all?
+        # Make this use GitHub Action Variables.
+        # (PR only) Changed the variable below to False if you don't want to build docs for your PR
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: docs/build/
-          single-commit: True
+          target-folder: ${{ env.DOC_VERSION }}
+          clean: False
+
+      - name: update version switcher file (tags only) (remove master before merging PR)
+        if: ${{ startsWith(github.ref, 'refs/tags/v') || github.ref == 'refs/heads/master' }}
+        # TODO: wrap this in two steps (one with github actions)
+        run: |
+          git stash
+          git checkout gh-pages
+          git pull origin gh-pages
+          cp ${{ env.DOC_VERSION }}/_static/switcher.json ./switcher.json
+          git add ./switcher.json
+          git commit -m "updated version switcher file"
+          git push origin gh-pages
+
+      - name: print link to the documentation
+        run: |
+          echo "https://deeppavlov.github.io/chatsky/${{ github.head_ref || github.ref_name }}"
