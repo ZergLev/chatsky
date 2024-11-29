@@ -1,0 +1,7 @@
+:source_name: chatsky/slots/slots
+:doc_version: v1.2.3/
+
+.. automodule:: chatsky.slots.slots
+   :members:
+   :undoc-members:
+   :show-inheritance:

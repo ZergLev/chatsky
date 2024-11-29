@@ -1,0 +1,7 @@
+:source_name: chatsky/core/service/extra
+:doc_version: v1.2.3/
+
+.. automodule:: chatsky.core.service.extra
+   :members:
+   :undoc-members:
+   :show-inheritance:
