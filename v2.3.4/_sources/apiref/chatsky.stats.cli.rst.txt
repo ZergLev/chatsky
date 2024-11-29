@@ -1,0 +1,7 @@
+:source_name: chatsky/stats/cli
+:doc_version: v2.3.4/
+
+.. automodule:: chatsky.stats.cli
+   :members:
+   :undoc-members:
+   :show-inheritance:

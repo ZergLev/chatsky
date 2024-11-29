@@ -1,0 +1,7 @@
+:source_name: chatsky/conditions/standard
+:doc_version: v2.3.4/
+
+.. automodule:: chatsky.conditions.standard
+   :members:
+   :undoc-members:
+   :show-inheritance:
