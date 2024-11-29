@@ -1,0 +1,41 @@
+[
+    {
+        "name": "latest",
+        "version": "master",
+        "url": "https://deeppavlov.github.io/chatsky/master/"
+    },
+    {
+        "version": "dev",
+        "url": "https://deeppavlov.github.io/chatsky/dev/"
+    },
+    {
+        "name": "v2.3.4",
+        "version": "v2.3.4",
+        "url": "https://deeppavlov.github.io/chatsky/v2.3.4/"
+    },
+    {
+        "name": "v1.3.1",
+        "version": "v1.3.1",
+        "url": "https://deeppavlov.github.io/chatsky/v1.3.1/"
+    },
+    {
+        "name": "v1.2.10",
+        "version": "v1.2.10",
+        "url": "https://deeppavlov.github.io/chatsky/v1.2.10/"
+    },
+    {
+        "name": "v1.1.1",
+        "version": "v1.1.1",
+        "url": "https://deeppavlov.github.io/chatsky/v1.1.1/"
+    },
+    {
+        "name": "v0.9.0",
+        "version": "v0.9.0",
+        "url": "https://deeppavlov.github.io/chatsky/v0.9.0/"
+    },
+    {
+        "name": "v0.8.1",
+        "version": "v0.8.1",
+        "url": "https://deeppavlov.github.io/chatsky/v0.8.1/"
+    }
+]
