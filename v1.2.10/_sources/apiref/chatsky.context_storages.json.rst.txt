@@ -1,0 +1,7 @@
+:source_name: chatsky/context_storages/json
+:doc_version: v1.2.10/
+
+.. automodule:: chatsky.context_storages.json
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+:source_name: chatsky/utils/testing/cleanup_db
+:doc_version: v1.2.10/
+
+.. automodule:: chatsky.utils.testing.cleanup_db
+   :members:
+   :undoc-members:
+   :show-inheritance:
